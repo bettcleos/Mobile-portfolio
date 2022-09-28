@@ -1,0 +1,23 @@
+{
+  "name": "mobile-portfolio",
+  "version": "1.0.0",
+  "description": "This is a project built with an aim of gauging my capabilities on building a personal portfolio. By the end of the project I will be able to build a shining portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettcleos/Mobile-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettcleos/Mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/bettcleos/Mobile-portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.2"
+  }
+}
