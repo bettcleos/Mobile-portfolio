@@ -32,10 +32,27 @@ p {
   order: 1;
 }
 
- 
-ul {
+.social{
+  position: relative;
   display: flex;
-  flex-direction: column;
-  padding: 0;
-  align-items: center;
+  align-items:center ;
+  left: 550px;
+  width: 200px;
+  list-style: none;
+  
 }
+.fa-brands {
+  padding: 10px;
+  color: gray;
+ }
+ .navbar{
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 550px;
+  list-style: none;
+   }
+   .black{
+    color: black;
+    padding: 10px;
+   }
