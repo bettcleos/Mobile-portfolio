@@ -60,29 +60,30 @@ p {
   color: black;
   padding: 1vh;
 }
-@media only screen and (max-width: 395px){
 
-.navbar{
-  position: relative;
-  display: flex;
-  align-items: center;
-  left: 0.5%;
-  
-}
-.black{
- font-size: small;
- padding: 0.5px;
-}
-.social{
-  position: relative;
-  display: flex;
-  align-items: center;
-  left: 0.5%;
-  width: 50%;
-  list-style: none;
-}
-.fa-brands {
-  padding: 0.5px;
-  
-}
+@media only screen and (max-width: 395px) {
+  .navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 0.5%;
+  }
+
+  .black {
+    font-size: small;
+    padding: 0.5px;
+  }
+
+  .social {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 0.5%;
+    width: 50%;
+    list-style: none;
+  }
+
+  .fa-brands {
+    padding: 0.5px;
+  }
 }
