@@ -32,6 +32,10 @@ p {
   order: 1;
 }
 
-footer {
-  text-align: center;
+ 
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
 }
