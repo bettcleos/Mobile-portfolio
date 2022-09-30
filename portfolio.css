@@ -1,7 +1,8 @@
 
 body {
   margin: 20px;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: url('background.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -36,13 +37,14 @@ p {
   position: relative;
   display: flex;
   align-items: center;
-  left: 550px;
-  width: 200px;
+  left: 43%;
+  width: 50%;
   list-style: none;
+  flex: none;
 }
 
 .fa-brands {
-  padding: 10px;
+  padding: 1vh;
   color: gray;
 }
 
@@ -50,11 +52,37 @@ p {
   position: relative;
   display: flex;
   align-items: center;
-  left: 550px;
+  left: 40%;
   list-style: none;
 }
 
 .black {
   color: black;
-  padding: 10px;
+  padding: 1vh;
+}
+@media only screen and (max-width: 395px){
+
+.navbar{
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 0.5%;
+  
+}
+.black{
+ font-size: small;
+ padding: 0.5px;
+}
+.social{
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 0.5%;
+  width: 50%;
+  list-style: none;
+}
+.fa-brands {
+  padding: 0.5px;
+  
+}
 }
