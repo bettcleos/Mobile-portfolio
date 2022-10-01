@@ -632,3 +632,36 @@ textarea:focus {
   font-size: 17px;
   font-weight: 600;
 }
+
+.hamburger {
+  display: block;
+  background: #000;
+  width: 1.5em;
+  height: 3px;
+  position: relative;
+  border-radius: 2em;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #000;
+  width: 1.5em;
+  height: 3px;
+  border-radius: 2em;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.hamburger::before {
+  top: 6px;
+}
+
+.hamburger::after {
+  bottom: 6px;
+}
