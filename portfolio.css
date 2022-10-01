@@ -1,4 +1,5 @@
 
+
 #back {
   width: 100%;
   background-image: url(background.png);
@@ -51,8 +52,7 @@
   }
 
   .work-section {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
     margin-bottom: 68px;
@@ -327,6 +327,10 @@ a {
 .down-arrow {
   text-align: center;
   margin: 20px 0 0 0;
+}
+.work-section{
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .work-section .work-header {
@@ -634,34 +638,34 @@ textarea:focus {
 }
 
 .hamburger {
-  display: block;
-  background: #000;
-  width: 1.5em;
-  height: 3px;
-  position: relative;
-  border-radius: 2em;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
+    display: block;
+    background: #000;
+    width: 1.5em;
+    height: 3px;
+    position: relative;
+    border-radius: 2em;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
 
-.hamburger::before,
-.hamburger::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  background: #000;
-  width: 1.5em;
-  height: 3px;
-  border-radius: 2em;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #000;
+    width: 1.5em;
+    height: 3px;
+    border-radius: 2em;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
 
-.hamburger::before {
-  top: 6px;
-}
+  .hamburger::before {
+    top: 6px;
+  }
 
-.hamburger::after {
-  bottom: 6px;
-}
+  .hamburger::after {
+    bottom: 6px;
+  }
