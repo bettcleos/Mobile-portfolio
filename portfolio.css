@@ -39,14 +39,17 @@
   .name {
     width: 327px;
   }
+
   .work-section .work-header {
     width: 327px;
     line-height: 75px;
   }
+
   .bottom-border {
     margin: 10px;
     opacity: 1;
   }
+
   .work-section {
     display: flex;
     flex-direction: column;
@@ -54,6 +57,7 @@
     align-items: center;
     margin-bottom: 68px;
   }
+
   .projects {
     display: flex;
     gap: 25px;
@@ -61,9 +65,11 @@
     justify-content: center;
     margin-top: 40px;
   }
+
   .about-text img {
     top: 50px;
   }
+
   .about-section .about-text {
     gap: 24px;
     width: 351px;
@@ -77,6 +83,7 @@
     margin-bottom: 20px;
     gap: 24px;
   }
+
   .form-section .form-text-primary {
     width: 327px;
     text-align: center;
@@ -101,7 +108,6 @@
     display: flex;
     flex-direction: row;
   }
-
 }
 
 @media (min-width: 769px) {
@@ -126,6 +132,7 @@
     width: 770px;
     margin-top: 15px;
   }
+
   .about-section .secondary-text {
     width: 770px;
   }
@@ -140,8 +147,6 @@
     font-size: 40px;
     font-style: normal;
   }
-  
- 
 }
 
 @media (min-width: 1024px) {
@@ -153,6 +158,7 @@
     background-image: none;
     margin: 70px;
   }
+
   .about-section .profession-skills {
     display: grid;
     grid-template-columns: repeat(3, 327px);
@@ -205,7 +211,8 @@
     flex-direction: row;
     margin-top: 35px;
   }
-   .projects {
+
+  .projects {
     display: grid;
     row-gap: 25px;
     column-gap: 25px;
@@ -283,7 +290,6 @@ h2 {
   align-items: center;
 }
 
-
 .headline-contact {
   margin-top: -90px;
 }
@@ -302,15 +308,6 @@ ul li {
 
 a {
   text-decoration: none;
-}
-
-.social .social-links,
-.social-contact .social-links {
-  width: 2.5rem;
-  height: 2.5rem;
-  background-size: cover;
-  list-style: none;
-  transition: transform 0.2s ease-out;
 }
 
 .social .social-links,
@@ -452,6 +449,7 @@ form button:hover {
 .form-section button:active {
   background-color: #008552;
 }
+
 .about-section {
   display: flex;
   flex-direction: column;
@@ -634,6 +632,3 @@ textarea:focus {
   font-size: 17px;
   font-weight: 600;
 }
-
-
-
